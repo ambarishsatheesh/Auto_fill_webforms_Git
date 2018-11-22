@@ -1,7 +1,7 @@
 # Code to test if reading from excel for mass data entry program works properly
 import pandas as pd
 
-# Open Excel and read cells
+# Open Excel and read cells. Store as DataFrame.
 df = pd.read_excel('file_name.xlsx', sheet_name='sheet_name', usecols="A:G")
 
 # Input column data into lists
